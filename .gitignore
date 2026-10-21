@@ -1,0 +1,112 @@
+# ==========================================
+# Python Virtual Environments
+# ==========================================
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# ==========================================
+# Byte-compiled / Cache files
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ==========================================
+# Testing & Code Quality Caches
+# ==========================================
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# ==========================================
+# Secrets & Environment Configurations
+# (Never commit API keys or credentials)
+# ==========================================
+.env
+.env.*
+*.env
+.streamlit/secrets.toml
+
+# ==========================================
+# Operating System & IDE Files
+# ==========================================
+# Windows
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+*.stackdump
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editors & IDEs
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+
+# ==========================================
+# Logs & Temporary Files
+# ==========================================
+*.log
+*.tmp
+*.temp
+
+# ==========================================
+# Model Weights & Checkpoints
+# Note: cnn_fan_id06.pth (~97 KB) and rf_fan_id06.joblib (~252 KB)
+# are small enough for Git. If you want to EXCLUDE model files from GitHub,
+# uncomment the lines below:
+# ==========================================
+# *.pth
+# *.pt
+# *.ckpt
+# *.joblib
+# *.pkl
+# *.pickle
+# *.onnx
+# *.h5
+# *.keras
+
+# ==========================================
+# Datasets & Large Audio Files
+# Uncomment if you want to exclude sample audio files from GitHub:
+# ==========================================
+# *.wav
+# *.mp3
+# *.flac
+# Test audio/
